@@ -1,0 +1,22 @@
+{
+  "name": "ExampleGraphQLServerMongoDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "dependencies": {
+    "apollo-server-express": "^2.5.0",
+    "express": "^4.17.0",
+    "graphql": "^14.3.0",
+    "graphql-import": "^0.7.1",
+    "mongoose": "^5.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
