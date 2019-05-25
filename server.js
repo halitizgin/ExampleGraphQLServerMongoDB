@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const PORT = 4000;
 const app = express();
 
-const { MONGODB_SERVER } = require('./contants');
+const { MONGODB_SERVER } = require('./constants');
 
 mongoose.connect(MONGODB_SERVER)
     .then(() => console.log("Connected to mongodb server."))
